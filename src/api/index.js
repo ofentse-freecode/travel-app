@@ -4,7 +4,7 @@ const URL = 'https://tripadvisor16.p.rapidapi.com/api/v1/restaurant/searchLocati
 
 const options = {
    
-    params: {query: 'paris'},
+    params: {query: 'berlin'},
     headers: {
       'x-rapidapi-key': process.env.REACT_APP_TA_KEY,
       'x-rapidapi-host': 'tripadvisor16.p.rapidapi.com'

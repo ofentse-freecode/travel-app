@@ -48,7 +48,7 @@ const List = () => {
         </Stack>
         <Stack gap={3}>
             {places?.map((place, i) => (
-              <Stack key ={i}>
+              <Stack key={i}>
                 <PlaceDetails place={place}/>
               </Stack>
             ))}
